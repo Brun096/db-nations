@@ -55,7 +55,7 @@ public class NationsManagment {
 				try(ResultSet rs=ps.executeQuery()){
 					
 					
-					//itero cul result set in colonne
+					//itero su result sql set in colonne
 					while(rs.next()) {
 						System.out.print("ID: "+rs.getString(1));
 						System.out.print("---");
@@ -80,7 +80,7 @@ public class NationsManagment {
 				try(ResultSet rs=ps.executeQuery()){
 					
 					
-					//itero cul result set in colonne
+					//itero su result di sql2 set in colonne
 					while(rs.next()) {
 						System.out.print("Languages: ");
 						System.out.print(rs.getString(1)+"  ");
@@ -98,7 +98,7 @@ public class NationsManagment {
 				try(ResultSet rs=ps.executeQuery()){
 					
 					
-					//itero cul result set in colonne
+					//itero su result di sql3 set in colonne
 					while(rs.next()) {
 						System.out.println("Most recent stats: "+rs.getString(1));
 						System.out.println("Year: "+rs.getString(2));
